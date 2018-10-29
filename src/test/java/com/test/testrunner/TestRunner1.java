@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		format = {"pretty", "html:target/cucumber"},
 		monochrome = true,
 		strict = false,
-		dryRun = false
+		dryRun = false,
 		tags = {"@test1"}
 		
 		

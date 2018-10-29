@@ -9,11 +9,11 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src\\main\\java\\com\\test\\features", 
 		glue = {"com.test.stepdefinitions"},
-//		format = {"pretty", "html:target/cucumber"},
+		format = {"pretty", "html:target/cucumber"},
 		monochrome = true,
 		strict = false,
-		dryRun = false
-//		tags = {"@test1"}
+		dryRun = false,
+		tags = {"@test1"}
 		
 		
 		

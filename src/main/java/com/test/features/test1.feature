@@ -13,3 +13,10 @@ Given Open the another app
 When Do something different
 And Do another thing2
 Then Expect something positive2
+
+@test3
+Scenario: Application test3
+Given Open the another app
+When Do something different
+And Do another thing2
+Then Expect something positive2
